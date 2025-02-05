@@ -1,0 +1,36 @@
+Token Analysis Results
+
+TOKENS
+Type,Value,Line Number
+Keyword,int,1
+Keyword,main,1
+Punctuation,(,1
+Punctuation,),1
+Punctuation,{,1
+Keyword,int,2
+Identifier,a,2
+Operator,=,2
+Number,5,2
+Punctuation,",",2
+Punctuation,;,2
+Comment,// assign value,3
+Keyword,char,4
+Identifier,b,4
+Operator,=,4
+String,'x',4
+Punctuation,;,4
+Keyword,return,7
+Identifier,a,7
+Operator,+,7
+Identifier,b,7
+Punctuation,;,7
+Punctuation,},8
+
+LEXICAL ERRORS
+Error
+7H (Line 2)
+
+SYMBOL TABLE
+Index,Identifier
+1,a
+2,b

@@ -1,0 +1,80 @@
+Token Analysis Results
+
+TOKENS
+Type,Value,Line Number
+Keyword,void,2
+Keyword,main,2
+Punctuation,(,2
+Punctuation,),2
+Punctuation,{,3
+Identifier,long,4
+Keyword,int,4
+Identifier,bs,4
+Punctuation,",",4
+Identifier,da,4
+Punctuation,",",4
+Identifier,hra,4
+Punctuation,",",4
+Identifier,gs,4
+Punctuation,;,4
+Comment,//take basic salary' as Input,5
+Identifier,scanf,6
+Punctuation,(,6
+String,"""%ld""",6
+Punctuation,",",6
+Operator,&,6
+Identifier,bs,6
+Punctuation,),6
+Punctuation,;,6
+Comment,//calculate allowances,7
+Identifier,gs,8
+Operator,=,8
+Identifier,bs,8
+Operator,+,8
+Identifier,da,8
+Operator,+,8
+Identifier,hra,8
+Punctuation,;,8
+Comment,//display salary slip,9
+Identifier,printf,10
+Punctuation,(,10
+String,"""\n\nbs :%ld""",10
+Punctuation,",",10
+Identifier,bs,10
+Punctuation,),10
+Punctuation,;,10
+Identifier,printf,11
+Punctuation,(,11
+String,"""\n\nbs :%ld""",11
+Punctuation,",",11
+Identifier,da,11
+Punctuation,),11
+Punctuation,;,11
+Identifier,printf,12
+Punctuation,(,12
+String,"""\n\nbs :%ld""",12
+Punctuation,",",12
+Identifier,hra,12
+Punctuation,),12
+Punctuation,;,12
+Identifier,printf,13
+Punctuation,(,13
+String,"""\n\nbs :%ld""",13
+Punctuation,",",13
+Identifier,gs,13
+Punctuation,),13
+Punctuation,;,13
+Punctuation,},14
+
+LEXICAL ERRORS
+Error
+
+SYMBOL TABLE
+Index,Identifier
+1,long
+2,bs
+3,da
+4,hra
+5,gs
+6,scanf
+7,printf
